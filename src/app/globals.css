@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-outfit);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+}
+
+:root {
+  /* Base Colors - Zinc Neutral */
+  --background: oklch(0.985 0.002 170);
+  --foreground: oklch(0.141 0.005 170);
+
+  /* Primary Brand Color - Orange */
+  --primary: #f2653a;
+  --primary-foreground: #ffffff;
+
+  /* Secondary - Teal */
+  --secondary: #85d1c8;
+  --secondary-foreground: #000000;
+
+  /* Muted - For subdued text/bg */
+  --muted: oklch(0.967 0.003 170);
+  --muted-foreground: oklch(0.552 0.016 170);
+
+  /* Accent - Subtle highlight */
+  --accent: oklch(0.967 0.003 170);
+  --accent-foreground: oklch(0.21 0.034 170);
+
+  /* Cards & Borders */
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.141 0.005 170);
+  --border: oklch(0.92 0.004 170);
+  --input: oklch(0.92 0.004 170);
+  --ring: #f2653a;
+
+  /* Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+}
+
+.dark {
+  /* Base Colors - Deep Dark Slate/Teal */
+  --background: oklch(0.1 0.01 170);
+  --foreground: oklch(0.985 0.002 170);
+
+  /* Primary */
+  --primary: #f2653a;
+  --primary-foreground: #ffffff;
+
+  /* Secondary */
+  --secondary: #85d1c8;
+  --secondary-foreground: #000000;
+
+  /* Muted */
+  --muted: oklch(0.15 0.02 170);
+  --muted-foreground: oklch(0.7 0.01 170);
+
+  /* Accent */
+  --accent: oklch(0.18 0.02 170);
+  --accent-foreground: oklch(0.985 0.002 170);
+
+  /* Cards & Borders */
+  --card: oklch(0.12 0.01 170);
+  --card-foreground: oklch(0.985 0.002 170);
+  --border: oklch(0.2 0.02 170);
+  --input: oklch(0.2 0.02 170);
+  --ring: #f2653a;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@keyframes wave {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-wave {
+  animation: wave 2s linear infinite;
+}

@@ -1,0 +1,80 @@
+
+> it-company-website@0.1.0 lint
+> eslint
+
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\app\careers\page.tsx
+  58:31  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\app\industries\page.tsx
+  56:68   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  58:101  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\app\portfolio\page.tsx
+  30:35  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\app\products\[slug]\page.tsx
+  10:10  warning  'ArrowRight' is defined but never used  @typescript-eslint/no-unused-vars
+  10:41  warning  'Shield' is defined but never used      @typescript-eslint/no-unused-vars
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\app\services\page.tsx
+    2:10  warning  'Server' is defined but never used                               @typescript-eslint/no-unused-vars
+  114:32  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\app\terms\page.tsx
+  23:65  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  23:71  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  23:74  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  23:91  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\components\about\about-hero.tsx
+   7:27   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  10:122  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\components\about\careers-cta.tsx
+  12:23  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\components\home\testimonials.tsx
+  23:37  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  23:57  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\components\home\trusted-companies.tsx
+  2:10  warning  'Section' is defined but never used                              @typescript-eslint/no-unused-vars
+  9:41  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\components\home\why-choose-us.tsx
+   3:10  warning  'CheckCircle2' is defined but never used                         @typescript-eslint/no-unused-vars
+  15:27  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\components\home\work-process.tsx
+  20:53  warning  'index' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\components\layout\footer.tsx
+  14:27  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  19:27  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  24:27  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  29:27  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\components\layout\header.tsx
+  7:10  warning  'cn' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\components\ui\product-card.tsx
+  11:11  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\components\ui\project-card.tsx
+   2:8   warning  'Image' is defined but never used       @typescript-eslint/no-unused-vars
+   4:29  warning  'CardFooter' is defined but never used  @typescript-eslint/no-unused-vars
+  21:5   warning  'image' is defined but never used       @typescript-eslint/no-unused-vars
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\components\ui\service-card.tsx
+  1:22  warning  'Divide' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\config\data.ts
+  1:39  warning  'Users' is defined but never used   @typescript-eslint/no-unused-vars
+  1:73  warning  'Rocket' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\jarif\.gemini\antigravity\scratch\it-company-website\src\data\products.ts
+  15:11  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+✖ 35 problems (22 errors, 13 warnings)
+
