@@ -1,0 +1,8 @@
+[
+  { "page": "home", "title": "Zent Technologies Ltd. | Enterprise IT Solutions", "description": "Zent Technologies Ltd. delivers world-class cloud, cybersecurity, AI, and custom software solutions for enterprises.", "keywords": "IT solutions, cloud, cybersecurity, AI, enterprise software" },
+  { "page": "about", "title": "About Us | Zent Technologies Ltd.", "description": "Learn about Zent Technologies Ltd., our mission, values, and the team driving digital transformation.", "keywords": "about Zent, IT company, team, mission" },
+  { "page": "products", "title": "Enterprise Software Products | Zent Technologies Ltd.", "description": "Discover our suite of enterprise-grade software products designed to streamline operations and enhance security.", "keywords": "ERP, HRM, POS, payroll software, enterprise products" },
+  { "page": "services", "title": "Our Services | Zent Technologies Ltd.", "description": "Explore our comprehensive range of IT services including Cloud Solutions, Cybersecurity, AI Integration, and more.", "keywords": "cloud services, cybersecurity, AI, software development" },
+  { "page": "blog", "title": "Insights & Blog | Zent Technologies Ltd.", "description": "Latest trends, technology insights, and company news from Zent Technologies.", "keywords": "technology blog, IT insights, digital transformation" },
+  { "page": "contact", "title": "Contact Us | Zent Technologies Ltd.", "description": "Get in touch with the Zent Technologies team to discuss your IT needs and solutions.", "keywords": "contact Zent, IT consultation, get in touch" }
+]

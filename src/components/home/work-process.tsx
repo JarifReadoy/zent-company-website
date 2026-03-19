@@ -22,7 +22,7 @@ export function WorkProcess() {
                                 <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full border bg-background md:left-1/2 md:-ml-6 md:-top-6 shadow-sm">
                                     <span className="text-lg font-bold text-primary">{step.step}</span>
                                 </div>
-                                <div className="md:text-center">
+                                <div className="pl-16 md:pl-0 md:text-center mt-2 md:mt-0">
                                     <h3 className="text-lg font-semibold leading-8 text-foreground">{step.title}</h3>
                                     <p className="mt-2 text-sm leading-6 text-muted-foreground">{step.description}</p>
                                 </div>

@@ -10,7 +10,7 @@ export function StatsSection() {
                     <p className="mt-4 text-lg leading-8 text-muted-foreground">
                         We optimize your IT infrastructure to deliver maximum efficiency. Our clients see significant improvements in operational speed and cost reduction.
                     </p>
-                    <dl className="mt-8 flex gap-4">
+                    <dl className="mt-8 flex flex-col sm:flex-row gap-6 sm:gap-4">
                         <div className="flex flex-col gap-y-2 border-l-2 border-primary pl-4">
                             <dt className="text-sm leading-6 text-muted-foreground">Uptime Guarantee</dt>
                             <dd className="text-3xl font-bold tracking-tight text-foreground">99.99%</dd>

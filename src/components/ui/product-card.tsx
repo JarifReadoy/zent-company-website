@@ -8,7 +8,7 @@ interface ProductCardProps {
     description: string
     features: string[]
     href: string
-    icon: LucideIcon
+    icon: React.ElementType
     featured?: boolean
 }
 

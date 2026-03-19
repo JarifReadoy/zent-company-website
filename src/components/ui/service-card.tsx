@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 interface ServiceCardProps {
     title: string
     description: string
-    icon: LucideIcon
+    icon: React.ElementType
     href: string
     className?: string
 }

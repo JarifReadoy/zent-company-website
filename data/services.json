@@ -1,0 +1,44 @@
+[
+  {
+    "id": "s1",
+    "title": "Cloud Infrastructure",
+    "description": "Scalable cloud architectures designed for high availability, security, and performance. We help you migrate, manage, and optimize your cloud environment.",
+    "icon": "Cloud",
+    "href": "/services/cloud"
+  },
+  {
+    "id": "s2",
+    "title": "Cybersecurity & Compliance",
+    "description": "Comprehensive security audits, threat detection, and compliance management to protect your critical business data from evolving cyber threats.",
+    "icon": "Shield",
+    "href": "/services/cybersecurity"
+  },
+  {
+    "id": "s3",
+    "title": "AI & Machine Learning",
+    "description": "Leverage the power of artificial intelligence to automate processes, gain data-driven insights, and create smarter customer experiences.",
+    "icon": "BrainCircuit",
+    "href": "/services/ai"
+  },
+  {
+    "id": "s4",
+    "title": "Custom Software Development",
+    "description": "Tailored software solutions built with modern technologies to solve your unique business challenges and drive digital transformation.",
+    "icon": "Laptop",
+    "href": "/services/software"
+  },
+  {
+    "id": "s5",
+    "title": "Data Analytics & BI",
+    "description": "Turn raw data into actionable intelligence. We implement robust data pipelines and visualization tools to empower decision-making.",
+    "icon": "Database",
+    "href": "/services/data"
+  },
+  {
+    "id": "s6",
+    "title": "Network Solutions",
+    "description": "Enterprise-grade network design and management services ensuring reliable connectivity and optimal performance for your distributed workforce.",
+    "icon": "Network",
+    "href": "/services/network"
+  }
+]

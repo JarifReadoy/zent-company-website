@@ -1,0 +1,6 @@
+[
+  { "id": "j1", "title": "Senior Full Stack Engineer", "department": "Engineering", "location": "Tech City / Remote", "type": "Full-time", "description": "We are looking for a Senior Full Stack Engineer to design and implement web applications using React, Node.js, and cloud technologies.", "published": true },
+  { "id": "j2", "title": "Product Manager", "department": "Product", "location": "Tech City", "type": "Full-time", "description": "Drive the product roadmap by working closely with engineering, design, and business stakeholders.", "published": true },
+  { "id": "j3", "title": "Cloud Architect", "department": "Infrastructure", "location": "Remote", "type": "Contract", "description": "Design and deploy scalable cloud architectures on AWS, Azure, and GCP for enterprise clients.", "published": true },
+  { "id": "j4", "title": "UI/UX Designer", "department": "Design", "location": "Tech City", "type": "Full-time", "description": "Create stunning, user-centric designs for enterprise software products and client-facing websites.", "published": true }
+]
